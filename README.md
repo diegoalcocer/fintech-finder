@@ -11,7 +11,7 @@ The Fintech Finder app contains the following files:
 
 * The first file is called `fintech_finder.py`. It contains the code associated with the web interface of your application. The code included in this file is compatible with the Streamlit library. `Streamlit` is an open-source Python library that makes it easy to create web app.
 * The second file is called `crypto_wallet.py`. This file contains the Ethereum transaction functions.
-* Fintech finder uses a personal blockchain called `Ganache` which is used for rapid Ethereum and Corda distributed application development. You can use `Ganache` across the entire development cycle; enabling you to develop, deploy, and test your dApps in a safe and deterministic environment.
+* Fintech finder uses a personal blockchain called [Ganache](https://trufflesuite.com/ganache/) which is used for rapid Ethereum and Corda distributed application development. You can use `Ganache` across the entire development cycle; enabling you to develop, deploy, and test your dApps in a safe and deterministic environment.
 ---
 ## Installation and Usage
 
@@ -22,7 +22,7 @@ cd fintech-finder/
 To run the `Streamlit` application:
 
 ```sh
-streamlit run pychain.py
+ streamlit run fintech_finder.py
 ```
 Make sure you have [streamlit installed](https://docs.streamlit.io/library/get-started/installation). You can use the following command:
 ```sh
